@@ -1,0 +1,13 @@
+.BO-underline{
+    border-bottom: 1px solid rgb(190, 192, 196);
+  }
+  
+  .BO-navigation{
+    color: rgb(150, 151, 151);
+    text-decoration: none;
+    &:hover{
+      color: rgb(79, 80, 80);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
