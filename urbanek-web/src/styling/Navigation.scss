@@ -1,13 +1,25 @@
 .BO-underline{
-    border-bottom: 1px solid rgb(190, 192, 196);
+    border-bottom: 1px solid rgb(99, 99, 99);
+    z-index: 5;
   }
   
   .BO-navigation{
-    color: rgb(150, 151, 151);
+    color: rgb(99, 99, 99);
     text-decoration: none;
     &:hover{
-      color: rgb(79, 80, 80);
+      color: rgb(43, 43, 43);
       text-decoration: underline;
       cursor: pointer;
+    }
+  }
+
+  .wing{
+    &::after{
+      content: "";
+      position: relative;
+      width: 500px;
+      height: 100px;
+      background-color: #fff;
+      z-index: 2;
     }
   }
