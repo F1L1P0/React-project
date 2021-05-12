@@ -3,8 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const Header = () => 
-<div className="app">
-
    <div className="bg-header">
         <div className="wing">
             <section className="mb-2">
@@ -28,8 +26,4 @@ const Header = () =>
             </section>
         </div>
    </div>
-            <section id="link1">
-                
-            </section>
-</div>
 export default Header;

@@ -2,4 +2,10 @@
 @import "styling/Navigation.scss";
 @import "styling/Breakpoints.scss";
 @import "styling/Background.scss";
+@import "aos/dist/aos.css";
+
+.test{
+    height: 100vh;
+    width: 500px;
+}
 
